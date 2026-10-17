@@ -7,7 +7,7 @@ Nix packaging for [NeverIdle](https://github.com/layou233/NeverIdle) — periodi
 ```nix
 {
   inputs = {
-    neveridle.url = "github:yueyinqiu/NeverIdleNix";
+    never-idle.url = "github:yueyinqiu/NeverIdleNix";
   };
 }
 ```
@@ -17,7 +17,7 @@ Nix packaging for [NeverIdle](https://github.com/layou233/NeverIdle) — periodi
 The binary is exposed as `NeverIdle`:
 
 ```nix
-neveridle.packages.${system}.neveridle
+never-idle.packages.${system}.never-idle
 ```
 
 Or try it directly from the CLI:

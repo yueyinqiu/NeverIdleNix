@@ -5,7 +5,7 @@
 }:
 
 buildGo127Module (finalAttrs: {
-  pname = "neveridle";
+  pname = "never-idle";
   version = "0.2.4";
 
   src = fetchFromGitHub {
