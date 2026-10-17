@@ -20,7 +20,7 @@
           package = nixpkgs.legacyPackages.${system}.callPackage ./package { };
         in
         {
-          neveridle = package;
+          never-idle = package;
           default = package;
         }
       );
